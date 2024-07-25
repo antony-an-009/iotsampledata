@@ -58,7 +58,7 @@ jobs:
 
           fi 
 
-          curl -H 'Content-Type: application/json' -d '{ 
+          curl -H 'Content-Type: application/vnd.microsoft.card.adaptive' -d '{ 
 
             "@type": "MessageCard", 
 
